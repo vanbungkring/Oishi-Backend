@@ -2,7 +2,7 @@ var mongoose = require('mongoose');
 
 var BikeCategoriesSchema = new mongoose.Schema({
   name: String,
-  series:
+  series:String,
   year: String,
   cc 	: String,
   manufactures: String,
